@@ -1,0 +1,100 @@
+:root {
+  --primary: #a5c0d4;
+  --background: #f0f3f5;
+  --text: #2c3e50;
+  --border: #000000;
+  --radius: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-container {
+  background: white;
+  padding: 2rem;
+  border: 2px solid var(--border);
+}
+
+h1 {
+  color: var(--text);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  font-weight: normal;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border);
+  padding: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+  font-weight: normal;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  font-size: 1rem;
+  background-color: #f8f9fa;
+}
+
+input:focus {
+  outline: none;
+  background-color: white;
+  border-width: 2px;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--primary);
+  color: var(--text);
+  border: 2px solid var(--border);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background: white;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  .form-group {
+    padding: 0.75rem;
+  }
+}

@@ -7,3 +7,4 @@ Desarrollo Trabajo Practico n2
 1. Rodriguez pablo alejandro - PabloRZ-AL
 2. Rodriguez Eduardo Tiago - EduardTr48
 3. Snopek Carlos Augusto - SnopekCarlos
+4. Calatayud Alex Gabriel - 4lexxe
