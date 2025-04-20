@@ -8,3 +8,4 @@ Desarrollo Trabajo Practico n2
 2. Rodriguez Eduardo Tiago - EduardTr48
 3. Snopek Carlos Augusto - SnopekCarlos
 4. Calatayud Alex Gabriel - 4lexxe
+5. Herrera Nicolás Efraín - Dredigo
