@@ -9,3 +9,4 @@ export function contarLetraA(texto) {
 
     return contador;
 }
+
