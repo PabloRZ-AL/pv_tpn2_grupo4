@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 9</title>
+    <title>Bienvenida</title>
     <script>
-        function mostrarMensaje() {
-            var nombre = prompt("Por favor, ingresa tu nombre:");
-            if (nombre) {
-                alert("Hola " + nombre + ", bienvenido a Programación Visual!");
-            } else {
-                alert("No ingresaste ningún nombre.");
-            }
+        function mostrarBienvenida() {
+            let nombre = document.getElementById("nombre").value;
+            document.getElementById("mensaje").innerText = "Hola " + nombre + ", bienvenido a Programación Visual!";
         }
     </script>
+    <link rel="stylesheet" href="css/style_ejercicio9.css">
 </head>
-<body onload="mostrarMensaje()">
+<body>
+    <h2>Ingrese su nombre:</h2>
+    <input type="text" id="nombre">
+    <button onclick="mostrarBienvenida()">Enviar</button>
+    <p id="mensaje"></p>
 </body>
 </html>
