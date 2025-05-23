@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicio17</title>
+        <script>
+            function contarLetraA(texto) {
+                let contador = 0;
+
+                for (let letra of texto.toLowerCase()) {
+                    if (letra === "a") {
+                        contador++;
+                    }
+                }
+
+                return contador;
+            }
+            console.log(
+                contarLetraA("La casa es grande y la luna brilla en la noche")
+            );
+        </script>
+    </head>
+    <body></body>
+</html>
