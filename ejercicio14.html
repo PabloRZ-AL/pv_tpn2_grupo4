@@ -11,7 +11,11 @@
             return numeros.map((numero) => numero * 2);
         }
 
-        const numeros = [1, 2, 3, 4, 5];
+        let numeros = prompt(
+            "Ingrese un arreglo de números separados por comas:"
+        );
+        numeros = numeros.split(",").map(Number);
+
         console.log("Array original:", numeros);
         console.log("Array duplicado:", duplicar(numeros));
     </script>
