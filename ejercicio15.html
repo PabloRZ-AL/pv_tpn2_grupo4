@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicio15</title>
+    </head>
+    <script>
+        const retornarMes = (numero) => {
+            const meses = {
+                1: "enero",
+                2: "febrero",
+                3: "marzo",
+                4: "abril",
+                5: "mayo",
+                6: "junio",
+                7: "julio",
+                8: "agosto",
+                9: "septiembre",
+                10: "octubre",
+                11: "noviembre",
+                12: "diciembre",
+            };
+
+            return numero >= 1 && numero <= 12 ? meses[numero] : "No es un mes";
+        };
+        // Ejemplo de uso
+        console.log(retornarMes(12));
+    </script>
+    <body></body>
+</html>
