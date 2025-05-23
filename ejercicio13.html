@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicio13</title>
+        <script>
+            /*Escribir una función llamada mostrarArreglo que reciba un arreglo numérico como
+            parámetro e imprima cada elemento en una línea a parte.*/
+
+            let arreglo = prompt(
+                "Ingrese un arreglo de números separados por comas:"
+            );
+            arreglo = arreglo.split(",").map(Number);
+
+            function mostrarArreglo(arreglo) {
+                for (let i = 0; i < arreglo.length; i++) {
+                    console.log(arreglo[i]);
+                }
+            }
+
+            mostrarArreglo(arreglo);
+        </script>
+    </head>
+    <body></body>
+</html>
