@@ -1,0 +1,40 @@
+body{
+    background-color: #c9c2c2;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.botones{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.boton{
+    background-color: #7c9add;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+#salida{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
